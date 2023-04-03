@@ -1,9 +1,8 @@
 body {
-    background-color: #EDD1C5;
+  background-color: #EDD1C5;
 }
 
 .container {
-    display: flex;
-    justify-content: flex-end;
-
-}
+  display: flex;
+  justify-content: flex-end;
+}/*# sourceMappingURL=style.css.map */
