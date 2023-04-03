@@ -6,3 +6,12 @@ body {
   display: flex;
   justify-content: flex-end;
 }/*# sourceMappingURL=style.css.map */
+
+.image-container{
+  text-align: end;
+  padding-top: 50px;
+}
+
+.logoCafe{
+  padding: 5px 10px 5px 10px;
+}
