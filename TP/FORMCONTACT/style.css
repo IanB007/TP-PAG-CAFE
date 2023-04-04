@@ -44,3 +44,8 @@ li {
 li:hover {
   background-color: #c05c2e;
 }/*# sourceMappingURL=style.css.map */
+
+.logoFondo{
+  display: flex;
+  justify-content: end;
+}
