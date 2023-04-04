@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -20,20 +20,27 @@
       
   </head>
   <body>  
-  <div class="header">
-    <!--aca va un header flotante-->
-    <div class="container-fluid" style="background-color: #70381F">
-      <div class="row nav ">
-        <div class="col-12 p-0">
-          <a href="#"><img src="logoCafe.png" alt="Logo de cafe" class="logoCafe"></a>
-          <img src="logo-05.png" alt="logo coffee time" height="40px" />
-        </div>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg row">
+      <a class="navbar-brand col col-2" href="#" id="logo">
+          <img src="imagenes/logoCafe.png" alt="Logo de cafe" id="logoCafe"/>
+      </a>
+      <div class="col col-2"></div>
+      <img src="imagenes/logo-05.png" alt="logo coffee time" id="titulo" class="col col-3"/>
+      <div class="col col-3"></div>
+      <div class="collapse navbar-collapse" id="navbarNav" class="col col-2">
+          <ul class="navbar-nav">
+              <li class="nav-item active">
+                  <a class="nav-link" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Pedir</a>
+              </li>
+          </ul>
       </div>
-    </div>
-    <div class="image-container">
-      <img src="580b57fbd9996e24bc43c0e9.png" alt="Nuestro Cafe" />
-    </div>
+  </nav>
+  <div class="container">
+    <img src="imagenes/580b57fbd9996e24bc43c0e9.png" alt="Nuestro Cafe" />
   </div>
-        
   </body>
 </html>

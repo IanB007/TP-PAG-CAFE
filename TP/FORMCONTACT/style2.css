@@ -1,24 +1,12 @@
-$backgroundColor: #EDD1C5;
-$navColor: #70381F;
-$bordes: #000000 solid 1px;
-
-body {
-    background-color: $backgroundColor;
-}
-
-.container {
-    display: flex;
-    justify-content: flex-end; 
-}
-
 nav {
-    background-color: $navColor;
+    background-color: #70381F;
 }
 
 #logoCafe {
     border-radius: 50px;
-    border: $bordes;
+    border: #000000 solid;
     height: 50px;
+    background-color: #e3a27c;
 }
 
 #logo {
@@ -41,8 +29,9 @@ li {
     padding: 0 5px;
     margin: 10px;
     border-radius: 50px;
-    border: $bordes;
+    border: #000000 solid 1px;
     text-align: center;
+    background-color: #e3a27c;
 }
 
 li:hover {
