@@ -1,9 +1,51 @@
 body {
-    background-color: #EDD1C5;
+  background-color: #EDD1C5;
 }
 
 .container {
-    display: flex;
-    justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
+}
 
+nav {
+  background-color: #70381F;
+}
+
+#logoCafe {
+  border-radius: 50px;
+  border: #000000 solid 1px;
+  height: 50px;
+}
+
+#logo {
+  padding-left: 35px;
+}
+
+.navbar-brand {
+  padding-left: 15px;
+}
+
+#titulo {
+  height: 45px;
+}
+
+ul {
+  margin-right: 10px;
+}
+
+li {
+  padding: 0 5px;
+  margin: 10px;
+  border-radius: 50px;
+  border: #000000 solid 1px;
+  text-align: center;
+}
+
+li:hover {
+  background-color: #c05c2e;
+}/*# sourceMappingURL=style.css.map */
+
+.logoFondo{
+  display: flex;
+  justify-content: end;
 }

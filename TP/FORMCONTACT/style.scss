@@ -1,0 +1,50 @@
+$backgroundColor: #EDD1C5;
+$navColor: #70381F;
+$bordes: #000000 solid 1px;
+
+body {
+    background-color: $backgroundColor;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-end; 
+}
+
+nav {
+    background-color: $navColor;
+}
+
+#logoCafe {
+    border-radius: 50px;
+    border: $bordes;
+    height: 50px;
+}
+
+#logo {
+    padding-left: 35px;
+}
+
+.navbar-brand {
+    padding-left: 15px;
+}
+
+#titulo {
+    height: 45px;
+}
+
+ul {
+    margin-right: 10px;
+}
+
+li {
+    padding: 0 5px;
+    margin: 10px;
+    border-radius: 50px;
+    border: $bordes;
+    text-align: center;
+}
+
+li:hover {
+    background-color: #c05c2e;
+}

@@ -1,0 +1,39 @@
+nav {
+    background-color: #70381F;
+}
+
+#logoCafe {
+    border-radius: 50px;
+    border: #000000 solid;
+    height: 50px;
+    background-color: #e3a27c;
+}
+
+#logo {
+    padding-left: 35px;
+}
+
+.navbar-brand {
+    padding-left: 15px;
+}
+
+#titulo {
+    height: 45px;
+}
+
+ul {
+    margin-right: 10px;
+}
+
+li {
+    padding: 0 5px;
+    margin: 10px;
+    border-radius: 50px;
+    border: #000000 solid 1px;
+    text-align: center;
+    background-color: #e3a27c;
+}
+
+li:hover {
+    background-color: #c05c2e;
+}
