@@ -1,3 +1,7 @@
+body {
+    background-color:#EDD1C5;
+}
+
 nav {
     background-color: #70381F;
 }
@@ -6,7 +10,7 @@ nav {
     border-radius: 50px;
     border: #000000 solid;
     height: 50px;
-    background-color: #e3a27c;
+    background-color: #EDD1C5;
 }
 
 #logo {
@@ -31,9 +35,69 @@ li {
     border-radius: 50px;
     border: #000000 solid 1px;
     text-align: center;
-    background-color: #e3a27c;
+    background-color: #EDD1C5;
 }
 
 li:hover {
-    background-color: #c05c2e;
+    background-color: #70381F;
+}
+
+.tituloPrincipal {
+    font-family: 'Cascadia Mono', sans-serif;
+    font-size: 60pt;
+    font-weight: bold;
+    color: #70381F;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+.textoInfo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    font-weight: bold;
+    margin-top: 8%;
+    margin-left: 5%;
+}
+
+.cafeFondo{
+    display: flex;
+    justify-content: end;
+  }
+
+
+.tituloSec2 {
+    font-family: 'Cascadia Mono', sans-serif;
+    font-size: 36pt;
+    font-weight: bold;
+    color: #70381F;
+    background-color: #FFE9E0;
+}
+
+.tituloSec3 {
+    font-family: 'Cascadia Mono', sans-serif;
+    font-size: 36pt;
+    font-weight: bold;
+    color: #EDD1C5;
+    background-color: #70381F;
+}
+
+.tituloSec4 {
+    font-family: 'Cascadia Mono', sans-serif;
+    font-size: 36pt;
+    font-weight: bold;
+    color: #70381F;
+    background-color: #EDD1C5;
+}
+
+.textoQuienesSomos {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    margin-top: 4%;
+    margin-left: 5%;
+}
+
+.imagenBar {
+    display: flex;
+    justify-content: center;
+    margin: 4% 5%;
 }
