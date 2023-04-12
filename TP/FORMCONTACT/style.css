@@ -1,51 +1,78 @@
 body {
-  background-color: #EDD1C5;
+  background-color:#EDD1C5;
 }
 
-.container {
-  display: flex;
-  justify-content: flex-end;
-}
-
-nav {
+/*navbar*/
+#navbar{
   background-color: #70381F;
+}
+
+
+#logo{
+ border-radius: 10px;
+ width: 60px;
 }
 
 #logoCafe {
   border-radius: 50px;
-  border: #000000 solid 1px;
+  border: #000000 solid;
   height: 50px;
-}
-
-#logo {
-  padding-left: 35px;
+  background-color: #EDD1C5;
 }
 
 .navbar-brand {
   padding-left: 15px;
 }
 
-#titulo {
-  height: 45px;
+.navbar-nav{
+  margin-left: 50px;
 }
 
-ul {
-  margin-right: 10px;
-}
-
-li {
+.nav-item{
+  text-align: center;
+  background-color: #EDD1C5;
   padding: 0 5px;
   margin: 10px;
   border-radius: 50px;
   border: #000000 solid 1px;
-  text-align: center;
 }
 
-li:hover {
-  background-color: #c05c2e;
-}/*# sourceMappingURL=style.css.map */
+.nav-item:hover{
+  color: #000000;
+  background: #FFFFFF;
+  margin-left: 10px;
+}
 
-.logoFondo{
+.navbar-toggler{
+  background-color: #EDD1C5;
+}
+/*navbar end*/
+
+
+
+
+li:hover {
+  background-color: #70381F;
+}
+
+.tituloPrincipal {
+  font-family: 'Cascadia Mono', sans-serif;
+  font-size: 60pt;
+  font-weight: bold;
+  color: #70381F;
+  margin-top: 10%;
+  margin-left: 5%;
+}
+
+.textoInfo {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10pt;
+  font-weight: bold;
+  margin-top: 8%;
+  margin-left: 5%;
+}
+
+.cafeFondo{
   display: flex;
   justify-content: end;
 }

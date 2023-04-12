@@ -11,37 +11,44 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style2.css" />
+    <link rel="stylesheet" href="style.css" />
     <link href="https://fonts.cdnfonts.com/css/cascadia-mono" rel="stylesheet">
 </head>
-
+<!--<img src="imagenes/logo-05.png" alt="logo coffee time" id="titulo" class="col col-3"/> 
+    css
+    #titulo {
+        height: 45px;
+    }
+-->
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand col col-2" href="#" id="logo">
-            <img src="imagenes/logo cafe vectorizado sin circulo-10-10.png" alt="Logo de cafe" id="logoCafe"/>
-        </a>
-        <div class="col col-2"></div>
-        <img src="imagenes/logo-05.png" alt="logo coffee time" id="titulo" class="col col-3"/>
-        <div class="col col-2"></div>
-        <div class="collapse navbar-collapse" id="navbarNav" class="col col-2">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Inicio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="presentaciónPersonal.html">¿Quienes Somos?</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="staff.html">Nuestro Staff</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="productosDestacados.html">Nuestros Productos Destacados</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="wizzard.html">Nuestros Productos Destacados</a>
-                </li>
-            </ul>
+    <nav class="navbar navbar-expand-lg" id="navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#" id="logo">
+                <img id="logoCafe" src="imagenes/logo cafe vectorizado sin circulo-10-10.png" alt="Logo de cafe"/>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="presentaciónPersonal.html">¿Quienes Somos?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="staff.html">Nuestro Staff</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="productosDestacados.html">Nuestros Productos Destacados</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="wizzard.html">Nuestros Productos Destacados</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
     <!--/Navbar -->
