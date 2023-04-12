@@ -1,4 +1,75 @@
-.fotoStaff {
-    margin: 10px;
+body {
+    background-color: #EDD1C5;
   }
   
+  .container {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  nav {
+    background-color: #70381F;
+  }
+  
+  #logoCafe {
+    border-radius: 50px;
+    border: #000000 solid 1px;
+    height: 50px;
+  }
+  
+  #logo {
+    padding-left: 35px;
+  }
+  
+  .navbar-brand {
+    padding-left: 15px;
+  }
+  
+  #titulo {
+    height: 45px;
+  }
+  
+  ul {
+    margin-right: 10px;
+  }
+  
+  li {
+    padding: 0 5px;
+    margin: 10px;
+    border-radius: 50px;
+    border: #000000 solid 1px;
+    text-align: center;
+  }
+  
+  li:hover {
+    background-color: #c05c2e;
+  }/*# sourceMappingURL=style.css.map */
+
+  .tituloSec3 {
+    font-family: 'Cascadia Mono', sans-serif;
+    font-size: 36pt;
+    font-weight: bold;
+    color: #EDD1C5;
+    background-color: #70381F;
+}
+
+  .fotoStaff {
+    display: flex;
+    margin-left: 5%;
+    margin-top: 4%;
+  }
+ 
+  .containerFotos{
+    background-color: #EDD1C5;
+}
+
+img{
+    background-color: #FFE9E0;
+    border: 10px solid #70381f;
+}
+
+.descripciónPersona{
+    text-align: left;
+    margin-top: 10px;
+    word-wrap: break-word;
+}

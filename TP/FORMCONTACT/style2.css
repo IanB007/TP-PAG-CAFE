@@ -1,5 +1,5 @@
 body {
-    background-color:#EDD1C5;
+    background-color:#70381F;
 }
 
 nav {
@@ -71,6 +71,7 @@ li:hover {
     font-weight: bold;
     color: #70381F;
     background-color: #FFE9E0;
+    justify-content: left;
 }
 
 .tituloSec3 {
@@ -94,6 +95,7 @@ li:hover {
     font-size: 12pt;
     margin-top: 4%;
     margin-left: 5%;
+    color: #EDD1C5;
 }
 
 .imagenBar {
