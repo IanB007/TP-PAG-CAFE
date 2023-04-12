@@ -1,0 +1,159 @@
+body {
+  background-color: #ffe9e0;
+  background: rgb(255, 233, 224);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 233, 224, 1) 2%,
+    rgba(112, 56, 31, 1) 54%
+  );
+}
+
+nav {
+  background-color: #70381f;
+}
+
+#logoCafe {
+  border-radius: 50px;
+  border: #000000 solid;
+  height: 50px;
+  background-color: #edd1c5;
+}
+
+#logo {
+  padding-left: 35px;
+}
+
+.navbar-brand {
+  padding-left: 15px;
+}
+
+#titulo {
+  height: 45px;
+}
+
+ul {
+  margin-right: 10px;
+}
+
+li {
+  padding: 0 5px;
+  margin: 10px;
+  border-radius: 50px;
+  border: #000000 solid 1px;
+  text-align: center;
+  background-color: #edd1c5;
+}
+
+li:hover {
+  background-color: #70381f;
+}
+
+.tituloPrincipal {
+  font-family: "Cascadia Mono", sans-serif;
+  font-size: 60pt;
+  font-weight: bold;
+  color: #70381f;
+  margin-top: 10%;
+  margin-left: 5%;
+}
+
+.textoInfo {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10pt;
+  font-weight: bold;
+  margin-top: 8%;
+  margin-left: 5%;
+}
+
+.cafeFondo {
+  display: flex;
+  justify-content: end;
+}
+
+.tituloSec2 {
+  font-family: "Cascadia Mono", sans-serif;
+  font-size: 36pt;
+  font-weight: bold;
+  color: #70381f;
+  background-color: #ffe9e0;
+}
+
+.tituloSec3 {
+  font-family: "Cascadia Mono", sans-serif;
+  font-size: 36pt;
+  font-weight: bold;
+  color: #edd1c5;
+  background-color: #70381f;
+}
+
+.tituloSec4 {
+  font-family: "Cascadia Mono", sans-serif;
+  font-size: 36pt;
+  font-weight: bold;
+  color: #70381f;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+.textoQuienesSomos {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12pt;
+  margin-top: 4%;
+  margin-left: 5%;
+}
+
+.imagenBar {
+  display: flex;
+  justify-content: center;
+  margin: 4% 5%;
+}
+.container-sm {
+  margin-top: 100px;
+  height: 700px;
+  width: 700px;
+}
+img {
+  border-radius: 25% 10%;
+}
+h5 {
+  font-size: 30px;
+}
+p {
+  font-size: 25px;
+}
+
+.contactar{
+    background-color: #edd1c5;
+}
+h3{
+    font-family: "Cascadia Mono", sans-serif;
+  font-size: 20pt;
+  font-weight: bold;
+  color: #70381f;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+.btn {
+  font-family: "Cascadia Mono", sans-serif;;
+  color: #ffe9e0;
+  font-size: 15px;
+  padding: 10px;
+  text-decoration: none;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 1px 3px #666666;
+  -moz-box-shadow: 0px 1px 3px #666666;
+  box-shadow: 0px 1px 3px #666666;
+  text-shadow: 0px 1px 3px #666666;
+  background: #70381f;
+}
+.btn:hover {
+  background: #a87f41;
+}
+.col3{
+  width: 400px;
+  margin-top: 30px;
+  margin-right: 30px;
+  margin-bottom: 5%;
+}
