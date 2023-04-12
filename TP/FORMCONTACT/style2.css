@@ -13,16 +13,8 @@ nav {
     background-color: #EDD1C5;
 }
 
-#logo {
-    padding-left: 35px;
-}
-
 .navbar-brand {
     padding-left: 15px;
-}
-
-#titulo {
-    height: 45px;
 }
 
 ul {
@@ -30,12 +22,13 @@ ul {
 }
 
 li {
+    text-align: center;
+    background-color: #EDD1C5;
     padding: 0 5px;
     margin: 10px;
     border-radius: 50px;
     border: #000000 solid 1px;
-    text-align: center;
-    background-color: #EDD1C5;
+    
 }
 
 li:hover {
@@ -62,7 +55,7 @@ li:hover {
 .cafeFondo{
     display: flex;
     justify-content: end;
-  }
+}
 
 
 .tituloSec2 {
