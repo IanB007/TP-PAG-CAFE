@@ -25,6 +25,16 @@ body {
   background-color: #EDD1C5;
 }
 
+#titulo {
+  height: 45px;
+  background-color: 70381f;
+}
+@media only screen and (max-width: 1116px) {
+  #titulo {
+      display: none;
+  }
+}
+
 .navbar-brand {
   padding-left: 15px;
 }

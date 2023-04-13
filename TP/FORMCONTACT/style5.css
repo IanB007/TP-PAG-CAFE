@@ -1,0 +1,118 @@
+body {
+    background-color: #70381f;
+  }
+  
+  /*navbar*/
+  #navbar {
+    background-color: #70381f;
+  }
+  
+  #logo {
+    border-radius: 10px;
+    width: 60px;
+  }
+  
+  #logoCafe {
+    border-radius: 50px;
+    border: #000000 solid;
+    height: 50px;
+    background-color: #edd1c5;
+  }
+  
+  #titulo {
+    height: 45px;
+    background-color: 70381f;
+  }
+  @media only screen and (max-width: 1116px) {
+    #titulo {
+        display: none;
+    }
+  }
+  
+  .navbar-brand {
+    padding-left: 15px;
+  }
+  
+  .nav-item {
+    margin-left: 10px;
+    text-align: center;
+    background-color: #edd1c5;
+    border-radius: 50px;
+    border: #000000 solid 1px;
+  }
+  
+  .nav-item:hover {
+    color: #000000;
+    background: #ffffff;
+    margin-left: 10px;
+  }
+  
+  .navbar-toggler {
+    background-color: #edd1c5;
+  }
+  /*navbar end*/
+  
+  li:hover {
+    background-color: #70381f;
+  }
+  
+  .tituloPrincipal {
+    font-family: "Cascadia Mono", sans-serif;
+    font-size: 60pt;
+    font-weight: bold;
+    color: #70381f;
+    margin-top: 10%;
+    margin-left: 5%;
+  }
+  
+  .textoInfo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    font-weight: bold;
+    margin-top: 8%;
+    margin-left: 5%;
+  }
+  
+  .cafeFondo {
+    display: flex;
+    justify-content: end;
+  }
+  
+  .tituloSec2 {
+    font-family: "Cascadia Mono", sans-serif;
+    font-size: 36pt;
+    font-weight: bold;
+    color: #70381f;
+    background-color: #ffe9e0;
+    justify-content: left;
+  }
+  
+  .tituloSec3 {
+    font-family: "Cascadia Mono", sans-serif;
+    font-size: 36pt;
+    font-weight: bold;
+    color: #edd1c5;
+    background-color: #70381f;
+  }
+  
+  .tituloSec4 {
+    font-family: "Cascadia Mono", sans-serif;
+    font-size: 36pt;
+    font-weight: bold;
+    color: #70381f;
+    background-color: #edd1c5;
+  }
+  
+  .textoQuienesSomos {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    margin-top: 4%;
+    margin-left: 5%;
+    color: #edd1c5;
+  }
+  
+  .imagenBar {
+    display: flex;
+    justify-content: center;
+    margin: 4% 5%;
+  }

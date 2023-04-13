@@ -24,6 +24,16 @@ body {
   background-color: #edd1c5;
 }
 
+#titulo {
+  height: 45px;
+  background-color: 70381f;
+}
+@media only screen and (max-width: 1116px) {
+  #titulo {
+      display: none;
+  }
+}
+
 .navbar-brand {
   padding-left: 15px;
 }
@@ -69,7 +79,7 @@ body {
     background-color: #EDD1C5;
 }
 
-img{
+.foto{
     background-color: #FFE9E0;
     border: 10px solid #70381f;
 }
