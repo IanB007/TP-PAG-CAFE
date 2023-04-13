@@ -1,13 +1,13 @@
 body {
-    background-color: #EDD1C5;
-  }
-  
-  .container {
-    display: flex;
-    justify-content: flex-end;
-  }
-  
-  /*navbar*/
+  background-color: #edd1c5;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/*navbar*/
 #navbar {
   background-color: #70381f;
 }
@@ -30,7 +30,7 @@ body {
 }
 @media only screen and (max-width: 1116px) {
   #titulo {
-      display: none;
+    display: none;
   }
 }
 
@@ -56,36 +56,42 @@ body {
   background-color: #edd1c5;
 }
 /*navbar end*/
-  
-  li:hover {
-    background-color: #c05c2e;
-  }/*# sourceMappingURL=style.css.map */
 
-  .tituloSec3 {
-    font-family: 'Cascadia Mono', sans-serif;
-    font-size: 36pt;
-    font-weight: bold;
-    color: #EDD1C5;
-    background-color: #70381F;
+li:hover {
+  background-color: #c05c2e;
+} /*# sourceMappingURL=style.css.map */
+
+.tituloSec3 {
+  text-align: center;
+  color: #70381f;
+  font-family: "Cascadia Mono", sans-serif;
+  font-size: 36pt;
+  font-weight: bold;
+  margin-top: 50px;
 }
 
-  .fotoStaff {
-    display: flex;
-    margin-left: 5%;
-    margin-top: 4%;
-  }
- 
-  .containerFotos{
-    background-color: #EDD1C5;
+.contenedorFotoStaff {
+  margin-top: 50px;
+  text-align: center;
 }
 
-.foto{
-    background-color: #FFE9E0;
-    border: 10px solid #70381f;
+.fotoStaff {
+  border: 10px solid #70381f;
+  box-shadow: 5px 5px 40px 1px #4d2715;
 }
 
-.descripciónPersona{
-    text-align: left;
-    margin-top: 10px;
-    word-wrap: break-word;
+.containerFotos {
+  background-color: #edd1c5;
+}
+
+.foto {
+  background-color: #ffe9e0;
+  border: 10px solid #70381f;
+  box-shadow: 5px 5px 10px 1px #4d2715;
+}
+
+.descripciónPersona {
+  text-align: left;
+  margin-top: 10px;
+  word-wrap: break-word;
 }
