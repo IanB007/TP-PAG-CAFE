@@ -10,6 +10,14 @@ body {
 
 nav {
   background-color: #70381f;
+/*navbar*/
+#navbar{
+  background-color: #70381F;
+}
+
+#logo{
+ border-radius: 10px;
+ width: 60px;
 }
 
 #logoCafe {
@@ -21,6 +29,17 @@ nav {
 
 #logo {
   padding-left: 35px;
+  background-color: #EDD1C5;
+}
+
+#titulo {
+  height: 45px;
+  background-color: 70381f;
+}
+@media only screen and (max-width: 1116px) {
+  #titulo {
+      display: none;
+  }
 }
 
 .navbar-brand {
@@ -43,6 +62,25 @@ li {
   text-align: center;
   background-color: #edd1c5;
 }
+
+.nav-item{
+  margin-left: 10px;
+  text-align: center;
+  background-color: #EDD1C5;
+  border-radius: 50px;
+  border: #000000 solid 1px;
+}
+
+.nav-item:hover{
+  color: #000000;
+  background: #FFFFFF;
+  margin-left: 10px;
+}
+
+.navbar-toggler{
+  background-color: #EDD1C5;
+}
+/*navbar end*/
 
 li:hover {
   background-color: #70381f;
@@ -88,6 +126,7 @@ li:hover {
 
 .tituloSec4 {
   font-family: "Cascadia Mono", sans-serif;
+  text-align: center;
   font-size: 36pt;
   font-weight: bold;
   color: #70381f;

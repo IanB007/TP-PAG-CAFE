@@ -15,12 +15,50 @@
     <link href="https://fonts.cdnfonts.com/css/cascadia-mono" rel="stylesheet">
 </head>
 <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top" id="navbar">
+        <div class="container-fluid">
+            <!--izquierda-->
+            <a class="navbar-brand" href="index.html" id="logo">
+                <img id="logoCafe" src="imagenes/logo cafe vectorizado sin circulo-10-10.png" alt="Logo de cafe"/>
+                <img id="titulo" src="imagenes/logo-05.png" alt="logo coffee time"/> 
+            </a>
+            <!--izquierda-->
+            <!--boton despliegue-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--boton despliegue-->
+            <!--derecha-->
+            <div class="collapse navbar-collapse rightNav" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="presentaciónPersonal.html">¿Quienes Somos?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="staff.html">Nuestro Staff</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="productosDestacados.html">Nuestros Productos Destacados</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="wizzard.html">PEDI AQUI!</a>
+                    </li>
+                </ul>
+            </div>
+            <!--derecha-->
+        </div>
+    </nav>
+    <!--Navbar -->
     <div class="container-fluid mb-5">
         <div class="row text-center">
             <h5 class="tituloSec2">¿QUIENES SOMOS?</h5>        
         </div>
         <div class="row">
-            <div class="col">
+            <div class="col mt-5">
                 <p class="textoQuienesSomos"> Somos un acogedor y tranquilo bar de café ubicado en el corazón de la ciudad! Desde nuestra apertura el 3 de mayo de 2021, hemos trabajado arduamente para convertirnos en el lugar favorito de los amantes del café en la zona.
                     En Coffee Time, nos apasiona ofrecer a nuestros clientes una amplia variedad de bebidas y bocadillos hechos con ingredientes frescos y de alta calidad. Nuestro menú incluye desde clásicos como el café espresso, el cappuccino y el latte, hasta opciones más innovadoras como nuestro café de especialidad del mes. También ofrecemos una selección de deliciosos bocadillos, pasteles y postres para complementar tu bebida.
                     Nos esforzamos por ofrecer un ambiente relajado y acogedor, en el que nuestros clientes puedan disfrutar de un buen café y sumergirse en una experiencia única. Nos enorgullece que muchos de nuestros clientes nos consideren su segundo hogar, gracias a nuestro ambiente cálido y familiar.
@@ -30,8 +68,7 @@
             </div>
             <div class="col">
                 <div class="imagenBar">
-                    <img src="imagenes-08.jpg" alt="Nuestro Bar" height="668px"/>
-                    
+                    <img class="bordeImagen" src="imagenes-08.jpg" alt="Nuestro Bar" height="668px"/>      
                 </div>
             </div>
         </div>

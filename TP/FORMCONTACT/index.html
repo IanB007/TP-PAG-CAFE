@@ -18,20 +18,27 @@
     css
     #titulo {
         height: 45px;
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
     }
 -->
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg" id="navbar">
+    <nav class="navbar navbar-expand-lg sticky-top" id="navbar">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#" id="logo">
+            <!--izquierda-->
+            <a class="navbar-brand" href="index.html" id="logo">
                 <img id="logoCafe" src="imagenes/logo cafe vectorizado sin circulo-10-10.png" alt="Logo de cafe"/>
+                <img id="titulo" src="imagenes/logo-05.png" alt="logo coffee time"/> 
             </a>
+            <!--izquierda-->
+            <!--boton despliegue-->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <!--boton despliegue-->
+            <!--derecha-->
+            <div class="collapse navbar-collapse rightNav" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link" href="#">Inicio</a>
                     </li>
@@ -45,13 +52,14 @@
                         <a class="nav-link" href="productosDestacados.html">Nuestros Productos Destacados</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="wizzard.html">Nuestros Productos Destacados</a>
+                        <a class="nav-link" href="wizzard.html">PEDI AQUI!</a>
                     </li>
                 </ul>
             </div>
+            <!--derecha-->
         </div>
     </nav>
-    <!--/Navbar -->
+    <!--Navbar -->
     <div class="container-fluid mb-5">
         <div class="row">
             <div class="col">
