@@ -14,14 +14,12 @@
     <link rel="stylesheet" href="style.css" />
     <link href="https://fonts.cdnfonts.com/css/cascadia-mono" rel="stylesheet">
 </head>
-<!--<img src="imagenes/logo-05.png" alt="logo coffee time" id="titulo" class="col col-3"/> 
-    css
-    #titulo {
-        height: 45px;
-    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-    }
--->
-<body>
+<body class="hidden"> <!--hidden es para ocultar por el preloader-->
+    <!--preloader-->
+    <div class="centrado" id="preLoader">
+        <div class="lds-dual-ring"></div>
+    </div>
+    <!--preloader-->
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg sticky-top" id="navbar">
         <div class="container-fluid">
@@ -73,5 +71,9 @@
             </div>
         </div>
     </div>
+    <!--javaScript - jquery-->
+    <script src="main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <!--javaScript-->
 </body>
 </html>
