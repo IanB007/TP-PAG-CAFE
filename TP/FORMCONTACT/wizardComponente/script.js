@@ -4,17 +4,17 @@ $(document).ready(function(){ //se empieza a ejecutar el js cuando termina de ca
     let cafes = [
         {
             "nombre": "Latte",
-            "precio": "$650",
+            "precio": 650,
             "cant": 0
         },
         {
             "nombre": "Capuccino",
-            "precio": "$500",
+            "precio": 500,
             "cant": 0
         },
         {
             "nombre": "Cafe Negro",
-            "precio": "$450",
+            "precio": 450,
             "cant": 0
         },
     ];
@@ -28,7 +28,7 @@ $(document).ready(function(){ //se empieza a ejecutar el js cuando termina de ca
             inicio--;
         }
         document.getElementById("productoSelector").innerHTML = cafes[inicio].nombre;
-        document.getElementById("precioSelector").innerHTML = cafes[inicio].precio;
+        document.getElementById("precioSelector").innerHTML = "$" + cafes[inicio].precio;
         document.getElementById("contadorCarrito").innerHTML = cafes[inicio].cant;
     })
 
@@ -39,7 +39,7 @@ $(document).ready(function(){ //se empieza a ejecutar el js cuando termina de ca
             inicio++;
         }
         document.getElementById("productoSelector").innerHTML = cafes[inicio].nombre;
-        document.getElementById("precioSelector").innerHTML = cafes[inicio].precio;
+        document.getElementById("precioSelector").innerHTML = "$" + cafes[inicio].precio;
         document.getElementById("contadorCarrito").innerHTML = cafes[inicio].cant;
     })
 
@@ -62,6 +62,7 @@ $('#sumar').click(function() {
             document.getElementById("cont3").innerHTML = cafes[inicio].cant;
             break;
     }
+    
 })
 
 $('#restar').click(function() {
@@ -84,7 +85,20 @@ $('#restar').click(function() {
     
 })
 
-//agregar al carrito
+//sumar al total
+
+$('#pasoDos').click(function(){
+    let contador = 0;
+
+    for (let i = 0; i<cafes.length; i++) {
+        contador = contador + (cafes[i].cant * cafes[i].precio)
+    }
+
+    console.log(contador)
+    document.getElementById("total").innerHTML = contador
+})
+    
+
 
 
 

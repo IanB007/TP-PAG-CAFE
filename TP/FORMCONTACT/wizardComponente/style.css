@@ -1,0 +1,89 @@
+#navbar {
+  background-color: #70381f;
+}
+
+#logo {
+  border-radius: 10px;
+  width: 60px;
+}
+
+#logoCafe {
+  border-radius: 50px;
+  border: #000000 solid;
+  height: 50px;
+  background-color: #edd1c5;
+}
+
+#titulo {
+  height: 45px;
+  background-color: 70381f;
+}
+
+@media only screen and (max-width: 1116px) {
+  #titulo {
+    display: none;
+  }
+}
+.navbar-brand {
+  padding-left: 15px;
+}
+
+.nav-item {
+  margin-left: 10px;
+  text-align: center;
+  background-color: #edd1c5;
+  border-radius: 50px;
+  border: #000000 solid 1px;
+}
+
+.nav-item:hover {
+  color: #000000;
+  background: #ffffff;
+  margin-left: 10px;
+}
+
+.navbar-toggler {
+  background-color: #edd1c5;
+}
+
+.card {
+  width: 18rem;
+  text-align: center;
+}
+
+.container {
+  width: 750px;
+  height: auto;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 3px 10px rgba(31, 31, 31, 0.1);
+  display: flex;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.card {
+  align-items: center;
+}
+
+#carrito {
+  border: 2px solid black;
+  align-items: center;
+  width: 140px;
+}
+
+#carrito button {
+  border: 1px solid black;
+}
+
+.contenedorLista {
+  display: flex;
+}
+
+.labelList {
+  align-content: flex-start;
+}
+
+.precioTotal {
+  padding-top: 30px;
+}
