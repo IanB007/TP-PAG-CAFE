@@ -21,7 +21,7 @@ body {
   
   #titulo {
     height: 45px;
-    background-color: 70381f;
+    background-color: #70381f;
   }
   @media only screen and (max-width: 1116px) {
     #titulo {
