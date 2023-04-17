@@ -1,6 +1,44 @@
 body {
   background-color: #70381f;
 }
+/*preloader*/
+.lds-dual-ring {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+}
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid #fff;
+  border-color: #70381F transparent #EDD1C5 transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.hidden{
+  overflow: hidden;
+}
+
+.centrado{
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+/*preloader end*/
 
 /*navbar*/
 #navbar {
@@ -56,28 +94,6 @@ li:hover {
   background-color: #70381f;
 }
 
-.tituloPrincipal {
-  font-family: "Cascadia Mono", sans-serif;
-  font-size: 60pt;
-  font-weight: bold;
-  color: #70381f;
-  margin-top: 10%;
-  margin-left: 5%;
-}
-
-.textoInfo {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 10pt;
-  font-weight: bold;
-  margin-top: 8%;
-  margin-left: 5%;
-}
-
-.cafeFondo {
-  display: flex;
-  justify-content: end;
-}
-
 .tituloSec2 {
   font-family: "Cascadia Mono", sans-serif;
   font-size: 36pt;
@@ -90,7 +106,7 @@ li:hover {
 .textoQuienesSomos {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14pt;
-  margin-top: 4%;
+  margin-top: 2%;
   margin-left: 5%;
   color: #edd1c5;
   text-align: justify;
@@ -100,7 +116,7 @@ li:hover {
 .imagenBar {
   display: flex;
   justify-content: center;
-  margin: 4% 5%;
+  margin: 5% 5%;
 }
 
 .bordeImagen{
