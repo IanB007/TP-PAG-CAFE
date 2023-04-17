@@ -135,6 +135,12 @@ $('#pasoDos').click(function(){
 })
     
 
+//numero de orden
+
+$("#fin").click(function(){
+    let random = 
+    $("#numOrden").innerHTML = (Math.floor(Math.random() * 100));
+})
 
 
 

@@ -48,7 +48,7 @@
     </nav>
     <!-- Navbar -->
 
-    <h5 class="tituloSec5">PEDÍ AQUÍ</h5>
+    <h4 class="tituloSec5">PEDÍ AQUÍ</h4>
     <!-- Cards -->
     <div class="container">
         <div class="card card1" id="card1">
@@ -70,7 +70,9 @@
                         <label for="mail">Email</label><br>
                         <input type="email" name="mail" required>
                     </p>
-                    <button class="siguiente">Siguiente</button>
+                    <div class="prevNext1">
+                        <button class="siguiente">Siguiente</button>
+                    </div>
                 </form>
             </div>
         </div>
@@ -123,7 +125,7 @@
                 </div>
             </div>
             <!-- Siguiente y anterior -->
-            <div id="PrevNext">
+            <div class="prevNext2">
                 <button class="anterior">Anterior</button>
                 <button id="pasoDos" class="siguiente" >Siguiente</button>
             </div>
@@ -168,7 +170,7 @@
                 </div>
             </div>
             <!-- Siguiente y anterior -->
-            <div id="PrevNext">
+            <div class="prevNext2">
                 <button class="anterior">Anterior</button>
                 <button class="siguiente">Siguiente</button>
             </div>
@@ -185,7 +187,6 @@
                             <option value="">Efectivo</option>
                             <option value="">Transferencia</option>
                         </select>
-                        <p id="efectivo"></p>
                     </p>
                     <p>
                         <label for="">Seleccione la sucursal preferida</label>
@@ -211,9 +212,9 @@
                         </div>
                     </p>
                     <!-- Siguiente y anterior -->
-                    <div id="PrevNext">
+                    <div id="prevNext1">
                         <button class="anterior">Anterior</button>
-                        <button class="siguiente">Finalizar</button>
+                        <button class="siguiente" id="fin">Finalizar</button>
                     </div>
                 </form>
             </div>
@@ -222,9 +223,10 @@
             <div class="card-body">
                 <h5 class="card-title">¡Tu pedido se realizo con exito!</h5>
                 <p>Puedes retirar tu pedido con el numero: </p>
-                <label for="">10</label>
-                <div id="PrevNext">
+                <label id="numOrden"></label>
+                <div class="prevNext1">
                     <button id="backto1">Realizar otro pedido</button>
+                    <br>
                     <button type="">
                         <a class="nav-link" href="../index.html">Volver al inicio</a>
                     </button>
