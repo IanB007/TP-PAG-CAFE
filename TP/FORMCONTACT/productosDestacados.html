@@ -28,7 +28,12 @@
     <!--botones-->
     <link type="text/css" src="./dist/bttn.min.css" />
   </head>
-  <body>
+  <body class="hidden">
+    <!--preloader-->
+    <div class="centrado" id="preLoader">
+      <div class="lds-dual-ring"></div>
+    </div>
+    <!--preloader-->
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg sticky-top" id="navbar">
       <div class="container-fluid">
@@ -171,114 +176,118 @@
         </button>
       </div>
     </div>
-  </body>
-  <footer>
-    <!--CONTACTAR-->
-    <div class="contactar">
-      <h3>CONTÁCTANOS</h3>
-      <div>
-        <div class="container text-center">
-          <div class="row align-items-start">
-            <div class="col">
-              <!-- Mapa direccion-->
-
-              <p>
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3143.648452180641!2d-57.54667948255616!3d-38.0086596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584dd7685d2b17d%3A0xd0a3c9422be5fd07!2sCoffee%20time!5e0!3m2!1ses!2sar!4v1681687324782!5m2!1ses!2sar"
-                  width="400"
-                  height="300"
-                  style="border: 0"
-                  allowfullscreen=""
-                  loading="lazy"
-                  referrerpolicy="no-referrer-when-downgrade"
-                ></iframe>
-              </p>
-            </div>
-            <div class="col" id="datos" style="text-align: left">
-              <div class="row">
-                <b>Coffee Time</b><br />
-                Falucho 1899, B7600FQK Mar del Plata<br />
-                (011) 3298-4304<br />
-                Lunes a Sabados de 9:00 a 20:30hs<br />
-                coffeetime@gmail.com<br />
+    <footer>
+      <!--CONTACTAR-->
+      <div class="contactar">
+        <h3>CONTÁCTANOS</h3>
+        <div>
+          <div class="container text-center">
+            <div class="row align-items-start">
+              <div class="col">
+                <!-- Mapa direccion-->
+  
+                <p>
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3143.648452180641!2d-57.54667948255616!3d-38.0086596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584dd7685d2b17d%3A0xd0a3c9422be5fd07!2sCoffee%20time!5e0!3m2!1ses!2sar!4v1681687324782!5m2!1ses!2sar"
+                    width="400"
+                    height="300"
+                    style="border: 0"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                  ></iframe>
+                </p>
               </div>
-              <!--REDES SOLCIALES-->
-              <div class="row2" style="text-align: left">              
-                <a
-                  class="elemento"
-                  href="https://www.whatsapp.com/?lang=es"
-                  target="_blank"
-                  ><i class="lab la-whatsapp"></i
-                ></a>
-                
-                <a
-                  class="elemento"
-                  href="https://www.facebook.com/"
-                  target="_blank"
-                  ><i class="lab la-facebook-f"></i
-                ></a>
-
-                <a
-                  class="elemento"
-                  href="https://www.instagram.com/"
-                  target="_blank"
-                  ><i class="lab la-instagram"></i
-                ></a>
-
-                <a class="elemento" href="https://twitter.com/" target="_blank"
-                  ><i class="lab la-twitter"></i
-                ></a>
+              <div class="col" id="datos" style="text-align: left">
+                <div class="row">
+                  <b>Coffee Time</b><br />
+                  Falucho 1899, B7600FQK Mar del Plata<br />
+                  (011) 3298-4304<br />
+                  Lunes a Sabados de 9:00 a 20:30hs<br />
+                  coffeetime@gmail.com<br />
+                </div>
+                <!--REDES SOLCIALES-->
+                <div class="row2" style="text-align: left">              
+                  <a
+                    class="elemento"
+                    href="https://www.whatsapp.com/?lang=es"
+                    target="_blank"
+                    ><i class="lab la-whatsapp"></i
+                  ></a>
+                  
+                  <a
+                    class="elemento"
+                    href="https://www.facebook.com/"
+                    target="_blank"
+                    ><i class="lab la-facebook-f"></i
+                  ></a>
+  
+                  <a
+                    class="elemento"
+                    href="https://www.instagram.com/"
+                    target="_blank"
+                    ><i class="lab la-instagram"></i
+                  ></a>
+  
+                  <a class="elemento" href="https://twitter.com/" target="_blank"
+                    ><i class="lab la-twitter"></i
+                  ></a>
+                </div>
               </div>
-            </div>
-            <div class="col3">
-              <div class="form-floating mb-3">
-                <input
-                  type="text"
-                  class="form-control"
-                  id="floatingInput"
-                  placeholder="nombre"
-                  maxlength="15"
-                />
-                <label for="floatingInput">Nombre</label>
-              </div>
-              <div class="form-floating mb-3">
-                <input
-                  type="text"
-                  class="form-control"
-                  id="floatingInput"
-                  placeholder="apellido"
-                  maxlength="15"
-                />
-                <label for="floatingInput">Apellido</label>
-              </div>
-              <div class="form-floating mb-3">
-                <input
-                  type="email"
-                  class="form-control"
-                  id="floatingInput"
-                  placeholder="name@example.com"
-                  maxlength="20"
-                />
-                <label for="floatingInput">Correo electronico</label>
-              </div>
-              <div class="form-floating mb-3">
-                <input
-                  type="number"
-                  class="form-control"
-                  id="floatingInput"
-                  placeholder="numero de telefono"
-                  minlength="15"
-                  maxlength="20"
-                />
-                <label for="floatingInput">Celular</label>
-              </div>
-              <div>
-                <button type="button" class="btn">Enviar</button>
+              <div class="col3">
+                <div class="form-floating mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="floatingInput"
+                    placeholder="nombre"
+                    maxlength="15"
+                  />
+                  <label for="floatingInput">Nombre</label>
+                </div>
+                <div class="form-floating mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="floatingInput"
+                    placeholder="apellido"
+                    maxlength="15"
+                  />
+                  <label for="floatingInput">Apellido</label>
+                </div>
+                <div class="form-floating mb-3">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="floatingInput"
+                    placeholder="name@example.com"
+                    maxlength="20"
+                  />
+                  <label for="floatingInput">Correo electronico</label>
+                </div>
+                <div class="form-floating mb-3">
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="floatingInput"
+                    placeholder="numero de telefono"
+                    minlength="15"
+                    maxlength="20"
+                  />
+                  <label for="floatingInput">Celular</label>
+                </div>
+                <div>
+                  <button type="button" class="btn">Enviar</button>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </footer>
+    </footer>
+  </body>
+  <!--javaScript - jquery-->
+  <script src="preloader.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <!--javaScript-->
 </html>

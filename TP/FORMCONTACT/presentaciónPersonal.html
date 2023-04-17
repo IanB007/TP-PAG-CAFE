@@ -14,7 +14,12 @@
     <link rel="stylesheet" href="style2.css" />
     <link href="https://fonts.cdnfonts.com/css/cascadia-mono" rel="stylesheet">
 </head>
-<body>
+<body class="hidden">
+    <!--preloader-->
+    <div class="centrado" id="preLoader">
+        <div class="lds-dual-ring"></div>
+    </div>
+    <!--preloader-->
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg sticky-top" id="navbar">
         <div class="container-fluid">
@@ -62,9 +67,14 @@
                 <p class="textoQuienesSomos"> Somos un acogedor y tranquilo bar de café ubicado en el corazón de la ciudad! Desde nuestra apertura el 3 de mayo de 2021, hemos trabajado arduamente para convertirnos en el lugar favorito de los amantes del café en la zona.
                     En Coffee Time, nos apasiona ofrecer a nuestros clientes una amplia variedad de bebidas y bocadillos hechos con ingredientes frescos y de alta calidad. Nuestro menú incluye desde clásicos como el café espresso, el cappuccino y el latte, hasta opciones más innovadoras como nuestro café de especialidad del mes. También ofrecemos una selección de deliciosos bocadillos, pasteles y postres para complementar tu bebida.
                     Nos esforzamos por ofrecer un ambiente relajado y acogedor, en el que nuestros clientes puedan disfrutar de un buen café y sumergirse en una experiencia única. Nos enorgullece que muchos de nuestros clientes nos consideren su segundo hogar, gracias a nuestro ambiente cálido y familiar.
+                </p>
+                <p class="textoQuienesSomos">
                     Detrás de Coffee Time hay un equipo apasionado de baristas expertos, que están siempre dispuestos a ofrecer recomendaciones y consejos personalizados para cada cliente. Nuestro equipo está comprometido en brindar la mejor experiencia posible para nuestros clientes.
                     En Coffee Time, nos enorgullece ser un lugar donde nuestros clientes puedan disfrutar de un buen café y de una atmósfera tranquila. Nos apasiona lo que hacemos, y nos comprometemos a seguir ofreciendo productos y servicios de alta calidad que superen las expectativas de nuestros clientes. Además, estamos comprometidos con la sostenibilidad y trabajamos con proveedores locales para reducir nuestra huella ambiental.
-                    ¡Gracias por visitar nuestra página web! Esperamos poder ofrecerle la mejor experiencia en nuestro bar de café y convertirnos en su lugar favorito para disfrutar de un buen café en la ciudad.</p>    
+                </p>    
+                <p  class="textoQuienesSomos">
+                    ¡Gracias por visitar nuestra página web! Esperamos poder ofrecerle la mejor experiencia en nuestro bar de café y convertirnos en su lugar favorito para disfrutar de un buen café en la ciudad.
+                </p>
             </div>
             <div class="col">
                 <div class="imagenBar">
@@ -73,5 +83,7 @@
             </div>
         </div>
     </div>
+    <script src="preloader.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 </body>
 </html>
