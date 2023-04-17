@@ -1,5 +1,41 @@
 $(document).ready(function(){ //se empieza a ejecutar el js cuando termina de cargar la pagina
 
+    //variables cards
+    let p1 = document.getElementById("card1");
+    let p2 = document.getElementById("card2");
+    let p3 = document.getElementById("card3");
+    let p4 = document.getElementById("card4");
+    let p5 = document.getElementById("card5");
+
+    let cardContador = [p1, p2, p3, p4, p5];
+    let x = 0;
+
+    //oculto cards > paso1
+    for (let i = 1; i <= 4; i++) {
+        $(cardContador[i]).hide()
+    }
+
+    //boton siguiente
+    $(".siguiente").click(function(){
+        $(cardContador[x]).hide();
+        x++;
+        $(cardContador[x]).show();
+    })
+
+    //boton anterior
+    $(".anterior").click(function(){
+        $(cardContador[x]).hide();
+        x--;
+        $(cardContador[x]).show();
+    })
+
+    //realizar otro pedido
+    $("#backto1").click(function(){
+        $(cardContador[x]).hide();
+        x = 0
+        $(cardContador[x]).show();
+    })
+
     let inicio = 0;
     let cafes = [
         {

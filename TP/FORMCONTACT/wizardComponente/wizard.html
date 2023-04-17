@@ -49,22 +49,30 @@
     <!-- Navbar -->
     <!-- Cards -->
     <div class="container">
-        <div class="card">
+        <div class="card card1" id="card1">
             <div class="card-body">
                 <h5 class="card-title">PASO 1</h5>
                 <p class="card-text">Ingresa tus datos</p>
                 <form action="" id="paso1">
-                    <input type="text" name="name" placeholder="Nombre" required>
-                    <input type="text" name="apellido" placeholder="Apellido" required>
-                    <label for="born">Fecha de nacimiento</label>
-                    <input type="date" name="born" id="" required>
-                    <label for="mail">Email</label>
-                    <input type="email" name="mail" required>
-                    <button class="Siguiente">Siguiente</button>
+                    <p>
+                        <input type="text" name="name" placeholder="Nombre" required>
+                    </p>
+                    <p>
+                        <input type="text" name="apellido" placeholder="Apellido" required>
+                    </p>
+                    <p>
+                        <label for="born">Fecha de nacimiento</label>
+                        <input type="date" name="born" id="" required>
+                    </p>
+                    <p>
+                        <label for="mail">Email</label><br>
+                        <input type="email" name="mail" required>
+                    </p>
+                    <button class="siguiente">Siguiente</button>
                 </form>
             </div>
         </div>
-        <div class="card">
+        <div class="card card2" id="card2">
             <div class="card-body">
                 <h5 class="card-title">PASO 2</h5>
                 <p class="card-text">Selecciona el producto</p>
@@ -114,11 +122,11 @@
             </div>
             <!-- Siguiente y anterior -->
             <div id="PrevNext">
-                <button>Anterior</button>
-                <button id="pasoDos">Siguiente</button>
+                <button class="anterior">Anterior</button>
+                <button id="pasoDos" class="siguiente" >Siguiente</button>
             </div>
         </div>
-        <div class="card">
+        <div class="card card3" id="card3">
             <div class="card-body">
                 <h5 class="card-title">PASO 3</h5>
                 <p>Confirma tu compra</p>
@@ -159,52 +167,62 @@
             </div>
             <!-- Siguiente y anterior -->
             <div id="PrevNext">
-                <button>Anterior</button>
-                <button>Siguiente</button>
+                <button class="anterior">Anterior</button>
+                <button class="siguiente">Siguiente</button>
             </div>
         </div>
-        <div class="card">
+        <div class="card card4" id="card4">
             <div class="card-body">
                 <h5 class="card-title">PASO 4</h5>
                 <p>Valida tu pedido</p>
                 <form action="" id="paso4">
-                    <label for="">Seleccione la forma de pago</label>
-                    <select>
-                        <option value="">Efectivo</option>
-                        <option value="">Transferencia</option>
-                    </select>
-                    <p id="efectivo"></p>
-                    <label for="">Seleccione la sucursal preferida</label>
-                    <select name="" id="">
-                        <option value="">9 N° 854</option>
-                        <option value="">7 N° 1054</option>
-                        <option value="">Diag. 74 N° 956</option>
-                    </select>
-                    <label for="">Ingrese el horario para retirar</label>
-                    <input type="time" list="horarios" min="08:00" max="20:00">
-                    <datalist id="horarios">
-                        <option value="08:00"></option>
-                        <option value="20:00"></option>
-                    </datalist>
-                    <div>
-                        <input type="checkbox" name="" id=""> 
-                        <label for="">Acepta terminos y condiciones</label>
-                    </div>
+                    <p>
+                        <label for="">Seleccione la forma de pago</label>
+                        <select required>
+                            <option value="">-</option>
+                            <option value="">Efectivo</option>
+                            <option value="">Transferencia</option>
+                        </select>
+                        <p id="efectivo"></p>
+                    </p>
+                    <p>
+                        <label for="">Seleccione la sucursal preferida</label>
+                        <select name="" id="" required>
+                            <option value="">-</option>
+                            <option value="">9 N° 854</option>
+                            <option value="">7 N° 1054</option>
+                            <option value="">Diag. 74 N° 956</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="">Ingrese el horario para retirar</label>
+                        <input type="time" list="horarios" min="08:00" max="20:00" required>
+                        <datalist id="horarios">
+                            <option value="08:00"></option>
+                            <option value="20:00"></option>
+                        </datalist>
+                    </p>
+                    <p>
+                        <div>
+                            <input type="checkbox" name="" id="" required> 
+                            <label for="">Acepta terminos y condiciones</label>
+                        </div>
+                    </p>
                     <!-- Siguiente y anterior -->
                     <div id="PrevNext">
-                        <button>Anterior</button>
-                        <button type="submit">Finalizar</button>
+                        <button class="anterior">Anterior</button>
+                        <button class="siguiente">Finalizar</button>
                     </div>
                 </form>
             </div>
         </div>
-        <div class="card">
+        <div class="card card5" id="card5">
             <div class="card-body">
                 <h5 class="card-title">¡Tu pedido se realizo con exito!</h5>
                 <p>Puedes retirar tu pedido con el numero: </p>
                 <label for="">10</label>
                 <div id="PrevNext">
-                    <button>Realizar otro pedido</button>
+                    <button id="backto1">Realizar otro pedido</button>
                     <button type="">
                         <a class="nav-link" href="../index.html">Volver al inicio</a>
                     </button>
