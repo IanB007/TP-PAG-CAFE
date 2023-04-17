@@ -1,3 +1,7 @@
+body {
+  background-color: #70381f;
+}
+
 #navbar {
   background-color: #70381f;
 }
@@ -44,6 +48,16 @@
 
 .navbar-toggler {
   background-color: #edd1c5;
+
+}
+
+.tituloSec5 {
+  text-align: center;
+  background-color: #edd1c5;
+  color: #70381f;
+  font-family: "Cascadia Mono", sans-serif;
+  font-size: 36pt;
+  font-weight: bold;
 }
 
 .container {
@@ -66,6 +80,7 @@
   position: absolute;
   left: 40%;
   align-items: center;
+  
 }
 
 .container img {
@@ -97,4 +112,16 @@
 
 .precioTotal {
   padding-top: 30px;
+}
+
+.Siguiente {
+margin-top: 25px;
+}
+
+.eMail {
+  margin-top: 25px;
+}
+
+.fechaNac {
+  margin-top: 25px;
 }
