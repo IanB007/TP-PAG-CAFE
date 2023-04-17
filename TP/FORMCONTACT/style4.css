@@ -189,6 +189,21 @@ h3 {
 .btn:hover {
   background: #a87f41;
 }
+
+.contenedorPdf{
+  padding-top: 30px;
+  text-align: center;
+}
+
+.pdf{
+  font-size: 20px;
+  padding: 20px;
+  color: #70381f;
+  border-radius: 10px;
+  background-color: #edd1c5;
+  text-decoration: none;
+}
+
 .col3 {
   width: 400px;
   margin-top: 30px;
