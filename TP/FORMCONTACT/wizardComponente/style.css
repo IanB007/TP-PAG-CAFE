@@ -1,4 +1,4 @@
-body {
+.container {
   background-color: #70381f;
 }
 
@@ -20,7 +20,7 @@ body {
 
 #titulo {
   height: 45px;
-  background-color: 70381f;
+  background-color: #70381f;
 }
 
 @media only screen and (max-width: 1116px) {
@@ -80,7 +80,6 @@ body {
   position: absolute;
   left: 40%;
   align-items: center;
-  
 }
 
 .container img {
@@ -124,4 +123,20 @@ margin-top: 25px;
 
 .fechaNac {
   margin-top: 25px;
+}
+
+#card1 {
+  background-color: #edd1c5;
+}
+#card2 {
+  background-color: #edd1c5;
+}
+#card3 {
+  background-color: #edd1c5;
+}
+#card4 {
+  background-color: #edd1c5;
+}
+#card5 {
+  background-color: #edd1c5;
 }
