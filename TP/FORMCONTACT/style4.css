@@ -21,20 +21,7 @@ nav {
 }
 
 #logoCafe {
-  border-radius: 50px;
-  border: #000000 solid;
-  height: 50px;
-  background-color: #edd1c5;
-}
-
-#logo {
-  padding-left: 35px;
-  background-color: #edd1c5;
-}
-
-#titulo {
-  height: 45px;
-  background-color: 70381f;
+  height: 55px;
 }
 @media only screen and (max-width: 1116px) {
   #titulo {
@@ -195,4 +182,25 @@ h3 {
   margin-top: 30px;
   margin-right: 30px;
   margin-bottom: 5%;
+}
+iframe{
+  margin-top: 30px;
+}
+#datos{
+  font-family: "Cascadia Mono", sans-serif;
+  font-size: 15px;
+  margin-top: 40px;
+  color: #70381f;
+}
+.row2{
+  text-align: center;
+  font-size: 30px;
+  margin-top: 10px;
+
+}
+.elemento {
+  margin: 1px;
+}
+i{
+  color: #70381f;
 }
