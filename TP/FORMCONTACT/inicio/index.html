@@ -1,77 +1,182 @@
-
-<head>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Página de cafe</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-        crossorigin="anonymous"></script>
+    <title>CoffeeTime</title>
+    <!--LOGO PESTAÑA-->
+    <link rel="icon" href="../imagenes/logo cafe vectorizado-10.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="style.css" />
-    <link href="https://fonts.cdnfonts.com/css/cascadia-mono" rel="stylesheet">
-</head>
-<body class="hidden"> <!--hidden es para ocultar por el preloader-->
+    <link
+      href="https://fonts.cdnfonts.com/css/cascadia-mono"
+      rel="stylesheet"
+    />
+    <!--LOGOS REDES-->
+    <link
+      rel="stylesheet"
+      href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
+    />
+  </head>
+  <body class="hidden">
+    <!--hidden es para ocultar por el preloader-->
     <!--preloader-->
     <div class="centrado" id="preLoader">
-        <div class="lds-dual-ring"></div>
+      <div class="lds-dual-ring"></div>
     </div>
     <!--preloader-->
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg sticky-top" id="navbar">
-        <div class="container-fluid">
-            <!--izquierda-->
-            <a class="navbar-brand" href="index.html" id="logo">
-                <img id="logoCafe" src="../imagenes/logo cafe vectorizado sin circulo-10-10.png" alt="Logo de cafe"/>
-                <img id="titulo" src="../imagenes/logo-05.png" alt="logo coffee time"/> 
-            </a>
-            <!--izquierda-->
-            <!--boton despliegue-->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <!--boton despliegue-->
-            <!--derecha-->
-            <div class="collapse navbar-collapse rightNav" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../quienes somos/presentaciónPersonal.html">¿Quienes Somos?</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../nuestro staff/staff.html">Nuestro Staff</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../productos destacados/productosDestacados.html">Nuestros Productos Destacados</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../wizardComponente/wizard.html">PEDI AQUI!</a>
-                    </li>
-                </ul>
-            </div>
-            <!--derecha-->
+      <div class="container-fluid">
+        <!--izquierda-->
+        <a class="navbar-brand" href="index.html" id="logo">
+          <img
+            id="logoCafe"
+            src="../imagenes/logo cafe vectorizado sin circulo-10-10.png"
+            alt="Logo de cafe"
+          />
+          <img
+            id="titulo"
+            src="../imagenes/logo-05.png"
+            alt="logo coffee time"
+          />
+        </a>
+        <!--izquierda-->
+        <!--boton despliegue-->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--boton despliegue-->
+        <!--derecha-->
+        <div
+          class="collapse navbar-collapse rightNav"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="../quienes somos/presentaciónPersonal.html"
+                >¿Quienes Somos?</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../nuestro staff/staff.html"
+                >Nuestro Staff</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="../productos destacados/productosDestacados.html"
+                >Nuestros Productos Destacados</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../wizardComponente/wizard.html"
+                >PEDI AQUI!</a
+              >
+            </li>
+          </ul>
         </div>
+        <!--derecha-->
+      </div>
     </nav>
     <!--Navbar -->
     <div class="container-fluid mb-5">
-        <div class="row">
-            <div class="col">
-                <h3 class="tituloPrincipal">IT'S<br/>COFFEE TIME</h3>
-                <p class="textoInfo"> Bienvenidos a nuestro acogedor bar de café. Ofrecemos una amplia variedad de bebidas y bocadillos hechos con ingredientes frescos y de alta calidad. Nuestro objetivo es brindarte una experiencia de café única, desde el primer sorbo hasta el último bocado. ¡Ven y descubre por qué somos el lugar perfecto para comenzar tu día o para relajarte después de un día agitado!</p>
-            </div>
-            <div class="col p-0">
-                <div class="cafeFondo">
-                    <img src="../imagenes/cafex4.png" height="850px" />
-                </div>
-            </div>
+      <div class="row">
+        <div class="col">
+          <h3 class="tituloPrincipal">IT'S<br />COFFEE TIME</h3>
+          <p class="textoInfo">
+            Bienvenidos a nuestro acogedor bar de café. Ofrecemos una amplia
+            variedad de bebidas y bocadillos hechos con ingredientes frescos y
+            de alta calidad. Nuestro objetivo es brindarte una experiencia de
+            café única, desde el primer sorbo hasta el último bocado. ¡Ven y
+            descubre por qué somos el lugar perfecto para comenzar tu día o para
+            relajarte después de un día agitado!
+          </p>
         </div>
+        <div class="col p-0">
+          <div class="cafeFondo">
+            <img src="../imagenes/cafex4.png" height="850px" />
+          </div>
+        </div>
+      </div>
     </div>
+    <!--Footer-->
+    <footer>
+      <div class="container1">
+        <div>
+          <div class="container text-center">
+            <div class="row align-items-start">
+              <div class="col">
+                <img
+                  src="../imagenes/logo-05.png"
+                  id="logoFooter"
+                  class="d-block"
+                  alt="logo"
+                  height="30"
+                />
+              </div>
+              <div class="col" id="since">
+                <div id="medio">
+                  © 1999-2023 Coffee Time<br />
+                  Falucho 1899, B7600FQK Mar del Plata<br />
+                </div>
+              </div>
+              <div class="col">
+                <a
+                  class="elemento"
+                  href="https://www.whatsapp.com/?lang=es"
+                  target="_blank"
+                  ><i class="lab la-whatsapp"></i
+                ></a>
+                <a
+                  class="elemento"
+                  href="https://www.facebook.com/"
+                  target="_blank"
+                  ><i class="lab la-facebook-f"></i
+                ></a>
+                <a
+                  class="elemento"
+                  href="https://www.instagram.com/"
+                  target="_blank"
+                  ><i class="lab la-instagram"></i
+                ></a>
+                <a class="elemento" href="https://twitter.com/" target="_blank"
+                  ><i class="lab la-twitter"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
     <!--javaScript - jquery-->
     <script src="../preloader.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <!--javaScript-->
-</body>
+  </body>
 </html>

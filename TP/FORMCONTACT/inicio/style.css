@@ -1,5 +1,5 @@
 body {
-  background-color:#EDD1C5;
+  background-color: #edd1c5;
 }
 
 /*preloader*/
@@ -16,7 +16,7 @@ body {
   margin: 8px;
   border-radius: 50%;
   border: 6px solid #fff;
-  border-color: #70381F transparent #EDD1C5 transparent;
+  border-color: #70381f transparent #edd1c5 transparent;
   animation: lds-dual-ring 1.2s linear infinite;
 }
 @keyframes lds-dual-ring {
@@ -28,11 +28,11 @@ body {
   }
 }
 
-.hidden{
+.hidden {
   overflow: hidden;
 }
 
-.centrado{
+.centrado {
   display: flex;
   height: 100vh;
   justify-content: center;
@@ -41,13 +41,12 @@ body {
 }
 /*preloader end*/
 
-
 /*navbar*/
-#navbar{
-  background-color: #70381F;
+#navbar {
+  background-color: #70381f;
 }
 
-#logo{
+#logo {
   border-radius: 10px;
   width: 60px;
 }
@@ -56,7 +55,7 @@ body {
   border-radius: 50px;
   border: #000000 solid;
   height: 50px;
-  background-color: #EDD1C5;
+  background-color: #edd1c5;
 }
 
 #titulo {
@@ -65,7 +64,7 @@ body {
 }
 @media only screen and (max-width: 1116px) {
   #titulo {
-      display: none;
+    display: none;
   }
 }
 
@@ -73,37 +72,34 @@ body {
   padding-left: 15px;
 }
 
-.nav-item{
+.nav-item {
   margin-left: 10px;
   text-align: center;
-  background-color: #EDD1C5;
+  background-color: #edd1c5;
   border-radius: 50px;
   border: #000000 solid 1px;
 }
 
-.nav-item:hover{
+.nav-item:hover {
   color: #000000;
-  background: #FFFFFF;
+  background: #ffffff;
   margin-left: 10px;
 }
 
-.navbar-toggler{
-  background-color: #EDD1C5;
+.navbar-toggler {
+  background-color: #edd1c5;
 }
 /*navbar end*/
 
-
-
-
 li:hover {
-  background-color: #70381F;
+  background-color: #70381f;
 }
 
 .tituloPrincipal {
-  font-family: 'Cascadia Mono', sans-serif;
+  font-family: "Cascadia Mono", sans-serif;
   font-size: 60pt;
   font-weight: bold;
-  color: #70381F;
+  color: #70381f;
   margin-top: 10%;
   margin-left: 5%;
 }
@@ -116,7 +112,28 @@ li:hover {
   margin-left: 5%;
 }
 
-.cafeFondo{
+.cafeFondo {
   display: flex;
   justify-content: end;
+}
+footer {
+  margin-bottom: 40px;
+}
+.container1 {
+  text-align: center;
+  margin: 50px;
+}
+.elemento {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 10px;
+  margin: 10px;
+  color: #70381f;
+}
+#medio {
+  color: #70381f;
+}
+#since {
+  margin-left: 100;
+  margin-right: 100;
 }
