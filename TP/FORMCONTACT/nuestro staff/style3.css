@@ -102,11 +102,11 @@ li:hover {
 
 .tituloSec3 {
   text-align: center;
-  color: #70381f;
+  color: #ffe9e0;
+  background-color: #7a4025;
   font-family: "Cascadia Mono", sans-serif;
   font-size: 36pt;
   font-weight: bold;
-  margin-top: 50px;
 }
 
 .contenedorFotoStaff {

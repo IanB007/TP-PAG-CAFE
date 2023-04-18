@@ -3,7 +3,7 @@ body {
   background: rgb(255, 233, 224);
   background: linear-gradient(
     180deg,
-    rgba(255, 233, 224, 1) 2%,
+    rgb(124, 50, 20) 2%,
     rgba(112, 56, 31, 1) 54%
   );
 }
@@ -127,6 +127,7 @@ li:hover {
   font-size: 36pt;
   font-weight: bold;
   color: #70381f;
+  background-color: #EDD1C5;
   padding-top: 10px;
   padding-left: 20px;
 }
