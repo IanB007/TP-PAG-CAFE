@@ -39,21 +39,26 @@ $(document).ready(function(){ //se empieza a ejecutar el js cuando termina de ca
     let inicio = 0;
     let cafes = [
         {
-            "nombre": "Latte",
-            "precio": 650,
+            "nombre": "Cream Coffee",
+            "precio": 400,
             "cant": 0
         },
         {
-            "nombre": "Capuccino",
+            "nombre": "Capuccino Coffee",
+            "precio": 600,
+            "cant": 0
+        },
+        {
+            "nombre": "Expresso Coffee",
             "precio": 500,
             "cant": 0
         },
-        {
-            "nombre": "Cafe Negro",
-            "precio": 450,
-            "cant": 0
-        },
     ];
+
+    //estado inicial nombre y precio cafe
+
+    document.getElementById("productoSelector").innerHTML = cafes[inicio].nombre;
+    document.getElementById("precioSelector").innerHTML = "$" + cafes[inicio].precio;
 
     //cambia la informacion del cafe
 
@@ -137,9 +142,11 @@ $('#pasoDos').click(function(){
 
 //numero de orden
 
-$("#fin").click(function(){
-    let random = 
-    $("#numOrden").innerHTML = (Math.floor(Math.random() * 100));
+let random = Math.floor(Math.random() * 100);
+
+$('#fin').click(function(){ 
+    document.getElementById("numOrden").innerHTML = random;
+    random++;
 })
 
 
