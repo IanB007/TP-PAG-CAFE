@@ -1,5 +1,35 @@
 $(document).ready(function(){ //se empieza a ejecutar el js cuando termina de cargar la pagina
 
+    //validando form
+    const validarFormulario = () => {
+        const nombre = document.getElementById("nombre");
+        const apellido = document.getElementById("apellido");
+        const correo = document.getElementById("correoElectronico");
+        const celular = document.getElementById("celular");
+
+        let entrar = false;
+        /*tamaño de 2 o de 3 el valor de dominio */
+        let regexEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+        /*valida el nombre y el apellido */
+        if (nombre.value.length < 3) {
+            entrar = true;
+        }
+        if (apellido.value.length < 4) {
+            entrar = true;
+        }
+        /*si no es un email "asdsa@sd.com" me va a tirar falso en la consola, entonces si es falso entra*/
+        if (!regexEmail.test(correo.value)) {
+            entrar = true;
+        }
+        /*valida el numero de celular */
+        if (celular.value.length < 10) {
+            entrar = true;
+        }
+        /*en caso de ser true entrar, avisa que hay un campo sin completar.
+        si el form esta completo pasa de card */
+        return entrar;
+    }
+
     //variables cards
     let p1 = document.getElementById("card1");
     let p2 = document.getElementById("card2");
@@ -17,9 +47,15 @@ $(document).ready(function(){ //se empieza a ejecutar el js cuando termina de ca
 
     //boton siguiente
     $(".siguiente").click(function(){
-        $(cardContador[x]).hide();
-        x++;
-        $(cardContador[x]).show();
+        let formValidator = validarFormulario();
+        if (formValidator) {
+            window.alert("El formulario está incompleto")
+        } else {
+            $(cardContador[x]).hide();
+            x++;
+            $(cardContador[x]).show();
+        }
+        
     })
 
     //boton anterior
