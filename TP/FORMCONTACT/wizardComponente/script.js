@@ -97,9 +97,7 @@ $(document).ready(function(){ //se empieza a ejecutar el js cuando termina de ca
         $(cardContador[x]).hide();
         x = 0
         $(cardContador[x]).show();
-        for (let i = 0; i < cafes.length; i++) {
-            cafes[i].cant = 0;
-        }
+        location.reload();
     })
 
 //sumar o restar al carrito
