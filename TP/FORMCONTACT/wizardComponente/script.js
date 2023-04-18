@@ -29,13 +29,6 @@ $(document).ready(function(){ //se empieza a ejecutar el js cuando termina de ca
         $(cardContador[x]).show();
     })
 
-    //realizar otro pedido
-    $("#backto1").click(function(){
-        $(cardContador[x]).hide();
-        x = 0
-        $(cardContador[x]).show();
-    })
-
     let inicio = 0;
     let cafes = [
         {
@@ -53,7 +46,22 @@ $(document).ready(function(){ //se empieza a ejecutar el js cuando termina de ca
             "precio": 500,
             "cant": 0
         },
-    ];
+        {
+            "nombre": "Croassaint",
+            "precio": 650,
+            "cant": 0
+        },
+        {
+            "nombre": "Muffin",
+            "precio": 500,
+            "cant": 0
+        },
+        {
+            "nombre": "Alfajor de Maicena",
+            "precio": 450,
+            "cant": 0
+        },
+];
 
     //estado inicial nombre y precio cafe
 
@@ -64,7 +72,7 @@ $(document).ready(function(){ //se empieza a ejecutar el js cuando termina de ca
 
     $("#prevCarrusel").click(function(){
         if (inicio == 0) {
-            inicio = 2;
+            inicio = 5;
         }else{
             inicio--;
         }
@@ -74,7 +82,7 @@ $(document).ready(function(){ //se empieza a ejecutar el js cuando termina de ca
     })
 
     $("#nextCarrusel").click(function(){
-        if (inicio == 2) {
+        if (inicio == 5) {
             inicio = 0;
         }else{
             inicio++;
@@ -84,14 +92,19 @@ $(document).ready(function(){ //se empieza a ejecutar el js cuando termina de ca
         document.getElementById("contadorCarrito").innerHTML = cafes[inicio].cant;
     })
 
+//realizar otro pedido
+    $("#backto1").click(function(){
+        $(cardContador[x]).hide();
+        x = 0
+        $(cardContador[x]).show();
+        for (let i = 0; i < cafes.length; i++) {
+            cafes[i].cant = 0;
+        }
+    })
+
 //sumar o restar al carrito
 
-$('#sumar').click(function() {
-    if (cafes[inicio].cant >= 0) {
-        cafes[inicio].cant++;
-    }
-    document.getElementById("contadorCarrito").innerHTML = cafes[inicio].cant;
-    console.log(cafes[inicio])
+let sumarLista = () => {
     switch (inicio) {
         case 0:
             document.getElementById("cont1").innerHTML = cafes[inicio].cant;
@@ -102,8 +115,25 @@ $('#sumar').click(function() {
         case 2:
             document.getElementById("cont3").innerHTML = cafes[inicio].cant;
             break;
+        case 3:
+            document.getElementById("cont4").innerHTML = cafes[inicio].cant;
+            break;
+        case 4:
+            document.getElementById("cont5").innerHTML = cafes[inicio].cant;
+            break;
+        case 5:
+            document.getElementById("cont6").innerHTML = cafes[inicio].cant;
+            break;
     }
-    
+}
+
+$('#sumar').click(function() {
+    if (cafes[inicio].cant >= 0) {
+        cafes[inicio].cant++;
+    }
+    document.getElementById("contadorCarrito").innerHTML = cafes[inicio].cant;
+    console.log(cafes[inicio])
+    sumarLista();
 })
 
 $('#restar').click(function() {
@@ -112,18 +142,7 @@ $('#restar').click(function() {
     }
     document.getElementById("contadorCarrito").innerHTML = cafes[inicio].cant;
     console.log(cafes[inicio])
-    switch (inicio) {
-        case 0:
-            document.getElementById("cont1").innerHTML = cafes[inicio].cant;
-            break;
-        case 1:
-            document.getElementById("cont2").innerHTML = cafes[inicio].cant;
-            break;
-        case 2:
-            document.getElementById("cont3").innerHTML = cafes[inicio].cant;
-            break;
-    }
-    
+    sumarLista();    
 })
 
 //sumar al total
