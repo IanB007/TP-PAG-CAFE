@@ -47,25 +47,29 @@ body {
 }
 /*preloader end*/
 
-/*navbar start*/
-nav {
-  background-color: #70381f;
-}
 /*navbar*/
-#navbar {
-  background-color: #70381f;
+#navbar{
+  background-color: #70381F;
 }
-#logo {
-  border-radius: 10px;
-  width: 60px;
+
+#logo{
+ border-radius: 10px;
+ width: 60px;
 }
 
 #logoCafe {
-  height: 55px;
+  border-radius: 50px;
+  height: 50px;
+  background-color: #EDD1C5;
+}
+
+#titulo {
+  height: 45px;
+  background-color: 70381f;
 }
 @media only screen and (max-width: 1116px) {
   #titulo {
-    display: none;
+      display: none;
   }
 }
 
@@ -73,39 +77,22 @@ nav {
   padding-left: 15px;
 }
 
-#titulo {
-  height: 45px;
-}
-
-ul {
-  margin-right: 10px;
-}
-
-li {
-  padding: 0 5px;
-  margin: 10px;
-  border-radius: 50px;
-  border: #000000 solid 1px;
-  text-align: center;
-  background-color: #edd1c5;
-}
-
-.nav-item {
+.nav-item{
   margin-left: 10px;
   text-align: center;
-  background-color: #edd1c5;
+  background-color: #EDD1C5;
   border-radius: 50px;
   border: #000000 solid 1px;
 }
 
-.nav-item:hover {
+.nav-item:hover{
   color: #000000;
-  background: #ffffff;
+  background: #FFFFFF;
   margin-left: 10px;
 }
 
-.navbar-toggler {
-  background-color: #edd1c5;
+.navbar-toggler{
+  background-color: #EDD1C5;
 }
 /*navbar end*/
 
@@ -161,6 +148,7 @@ p {
 
 .contactar {
   background-color: #edd1c5;
+  text-align: center;
 }
 h3 {
   font-family: "Cascadia Mono", sans-serif;
@@ -188,6 +176,21 @@ h3 {
 .btn:hover {
   background: #a87f41;
 }
+
+.contenedorPdf{
+  padding-top: 30px;
+  text-align: center;
+}
+
+.pdf{
+  font-size: 20px;
+  padding: 20px;
+  color: #70381f;
+  border-radius: 10px;
+  background-color: #edd1c5;
+  text-decoration: none;
+}
+
 .col3 {
   width: 400px;
   margin-top: 30px;
@@ -214,4 +217,12 @@ iframe{
 }
 i{
   color: #70381f;
+}
+
+.warning{
+  width: 300px;
+  text-align: center;
+  margin: auto;
+  color: #000000;
+  padding-top: 10px;
 }

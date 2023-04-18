@@ -37,57 +37,41 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg sticky-top" id="navbar">
       <div class="container-fluid">
-        <!--izquierda-->
-        <a class="navbar-brand" href="index.html" id="logo">
-          <img id="logoCafe" src="imagenes/titulo.jpg" alt="Logo de cafe" />
-        </a>
-        <!--izquierda-->
-        <!--boton despliegue-->
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <!--boton despliegue-->
-        <!--derecha-->
-        <div
-          class="collapse navbar-collapse rightNav"
-          id="navbarSupportedContent"
-        >
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Inicio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="presentaciónPersonal.html"
-                >¿Quienes Somos?</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="staff.html">Nuestro Staff</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="productosDestacados.html"
-                >Nuestros Productos Destacados</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="wizardComponente/wizard.html"
-                >PEDI AQUI!</a
-              >
-            </li>
-          </ul>
-        </div>
-        <!--derecha-->
+          <!--izquierda-->
+          <a class="navbar-brand" href="index.html" id="logo">
+              <img id="logoCafe" src="imagenes/logo cafe vectorizado sin circulo-10-10.png" alt="Logo de cafe"/>
+              <img id="titulo" src="imagenes/logo-05.png" alt="logo coffee time"/> 
+          </a>
+          <!--izquierda-->
+          <!--boton despliegue-->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <!--boton despliegue-->
+          <!--derecha-->
+          <div class="collapse navbar-collapse rightNav" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="presentaciónPersonal.html">¿Quienes Somos?</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="staff.html">Nuestro Staff</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="productosDestacados.html">Nuestros Productos Destacados</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="wizardComponente/wizard.html">PEDI AQUI!</a>
+                  </li>
+              </ul>
+          </div>
+          <!--derecha-->
       </div>
-    </nav>
-    <!--Navbar -->
+  </nav>
+  <!--Navbar -->
 
     <h5 class="tituloSec4">NUESTROS PRODUCTOS DESTACADOS</h5>
     <!-- CARRUSEL -->
@@ -175,6 +159,9 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+      <div class="contenedorPdf">
+        <a class="pdf" href="Nuestro Menú.pdf" download>Descarga nuestro menú!</a>
+      </div>
     </div>
     <footer>
       <!--CONTACTAR-->
@@ -234,52 +221,59 @@
                   ></a>
                 </div>
               </div>
+
+              <!--formulario-->
               <div class="col3">
-                <div class="form-floating mb-3">
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="floatingInput"
-                    placeholder="nombre"
-                    maxlength="15"
-                  />
-                  <label for="floatingInput">Nombre</label>
-                </div>
-                <div class="form-floating mb-3">
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="floatingInput"
-                    placeholder="apellido"
-                    maxlength="15"
-                  />
-                  <label for="floatingInput">Apellido</label>
-                </div>
-                <div class="form-floating mb-3">
-                  <input
-                    type="email"
-                    class="form-control"
-                    id="floatingInput"
-                    placeholder="name@example.com"
-                    maxlength="20"
-                  />
-                  <label for="floatingInput">Correo electronico</label>
-                </div>
-                <div class="form-floating mb-3">
-                  <input
-                    type="number"
-                    class="form-control"
-                    id="floatingInput"
-                    placeholder="numero de telefono"
-                    minlength="15"
-                    maxlength="20"
-                  />
-                  <label for="floatingInput">Celular</label>
-                </div>
-                <div>
-                  <button type="button" class="btn">Enviar</button>
-                </div>
+                <form action=""id="form">
+                  <div class="form-floating mb-3">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="nombre"
+                      placeholder="nombre"
+                      maxlength="15"
+                      required
+                    />
+                    <label for="nombre">Nombre</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="apellido"
+                      placeholder="apellido"
+                      maxlength="15"
+                      required
+                    />
+                    <label for="apellido">Apellido</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="correoElectronico"
+                      placeholder="name@example.com"
+                      maxlength="20"
+                      required
+                    />
+                    <label for="correoElectronico">Correo electronico</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <input
+                      type="number"
+                      class="form-control"
+                      id="celular"
+                      placeholder="numero de telefono"
+                      maxlength="20"
+                      required
+                    />
+                    <label for="celular">Celular</label>
+                  </div>
+                  <button type="submit" class="btn">Enviar</button>
+                  <p class="warning" id="warning"></p>
+                </form>
               </div>
+              <!--formulario-->
             </div>
           </div>
         </div>
@@ -288,6 +282,7 @@
   </body>
   <!--javaScript - jquery-->
   <script src="preloader.js"></script>
+  <script src="validador.js"></script>
   <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
   <!--javaScript-->
 </html>

@@ -105,6 +105,8 @@
   display: flex;
   margin: auto;
   margin-top: 20px;
+  padding: 0%;
+  
 }
 
 /* acomodo las cartas en el medio, superpuestas */
@@ -139,6 +141,7 @@
 
 .contenedorLista {
   display: flex;
+  
 }
 
 .labelList {
