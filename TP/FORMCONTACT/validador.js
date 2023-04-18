@@ -11,7 +11,8 @@ form.addEventListener("submit", valor => {
   let warning = "";
   let entrar = false;
   /*tamaño de 2 o de 3 el valor de dominio */
-  let regexEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+  /*w\ coincide cualquier caracter de palabra(alfanumerico o guion bajo),  */
+  let regexEmail = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/g;
   /*valida el nombre y el apellido */
   if (nombre.value.length < 3) {
     warning += "El nombre no es valido <br>";
