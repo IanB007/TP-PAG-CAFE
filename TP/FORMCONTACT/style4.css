@@ -47,25 +47,29 @@ body {
 }
 /*preloader end*/
 
-/*navbar start*/
-nav {
-  background-color: #70381f;
-}
 /*navbar*/
-#navbar {
-  background-color: #70381f;
+#navbar{
+  background-color: #70381F;
 }
-#logo {
-  border-radius: 10px;
-  width: 60px;
+
+#logo{
+ border-radius: 10px;
+ width: 60px;
 }
 
 #logoCafe {
-  height: 55px;
+  border-radius: 50px;
+  height: 50px;
+  background-color: #EDD1C5;
+}
+
+#titulo {
+  height: 45px;
+  background-color: 70381f;
 }
 @media only screen and (max-width: 1116px) {
   #titulo {
-    display: none;
+      display: none;
   }
 }
 
@@ -73,39 +77,22 @@ nav {
   padding-left: 15px;
 }
 
-#titulo {
-  height: 45px;
-}
-
-ul {
-  margin-right: 10px;
-}
-
-li {
-  padding: 0 5px;
-  margin: 10px;
-  border-radius: 50px;
-  border: #000000 solid 1px;
-  text-align: center;
-  background-color: #edd1c5;
-}
-
-.nav-item {
+.nav-item{
   margin-left: 10px;
   text-align: center;
-  background-color: #edd1c5;
+  background-color: #EDD1C5;
   border-radius: 50px;
   border: #000000 solid 1px;
 }
 
-.nav-item:hover {
+.nav-item:hover{
   color: #000000;
-  background: #ffffff;
+  background: #FFFFFF;
   margin-left: 10px;
 }
 
-.navbar-toggler {
-  background-color: #edd1c5;
+.navbar-toggler{
+  background-color: #EDD1C5;
 }
 /*navbar end*/
 
