@@ -175,18 +175,8 @@
             <div class="row align-items-start">
               <div class="col">
                 <!-- Mapa direccion-->
-  
-                <p>
-                  <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3143.648452180641!2d-57.54667948255616!3d-38.0086596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584dd7685d2b17d%3A0xd0a3c9422be5fd07!2sCoffee%20time!5e0!3m2!1ses!2sar!4v1681687324782!5m2!1ses!2sar"
-                    width="400"
-                    height="300"
-                    style="border: 0"
-                    allowfullscreen=""
-                    loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"
-                  ></iframe>
-                </p>
+                <div id="map"></div>
+                <!-- Mapa direccion-->
               </div>
               <div class="col" id="datos" style="text-align: left">
                 <div class="row">
@@ -286,6 +276,11 @@
   <!--javaScript - jquery-->
   <script src="../preloader.js"></script>
   <script src="../validador.js"></script>
+  <!--API GOOGLE MAPS-->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap" defer></script>
+  <!-- script mapa-->
+  <script src="map.js"></script>
+  <!-- script mapa-->
   <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
   <!--javaScript-->
 </html>

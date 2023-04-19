@@ -226,3 +226,8 @@ i{
   color: #000000;
   padding-top: 10px;
 }
+
+#map{
+  height: 400px;
+  width: 100%;
+}
