@@ -224,16 +224,16 @@
                 <form action="" id="paso4">
                     <p>
                         <label for="">Seleccione la forma de pago</label>
-                        <select required>
-                            <option value="">-</option>
+                        <select id="pago" required>
+                            <option value="0">-</option>
                             <option value="">Efectivo</option>
                             <option value="">Transferencia</option>
                         </select>
                     </p>
                     <p>
                         <label for="">Seleccione la sucursal preferida</label>
-                        <select name="" id="" required>
-                            <option value="">-</option>
+                        <select id="sucursal" required>
+                            <option value="0">-</option>
                             <option value="">9 N° 854</option>
                             <option value="">7 N° 1054</option>
                             <option value="">Diag. 74 N° 956</option>
@@ -241,22 +241,22 @@
                     </p>
                     <p>
                         <label for="">Ingrese el horario para retirar</label>
-                        <input type="time" list="horarios" min="08:00" max="20:00" required>
-                        <datalist id="horarios">
+                        <input type="time" list="horarios" min="08:00" max="20:00" id="horarios" required>
+                        <datalist>
+                            <option value="00:00"></option>
                             <option value="08:00"></option>
                             <option value="20:00"></option>
                         </datalist>
                     </p>
                     <p>
-                        <div>
-                            <input type="checkbox" name="" id="" required> 
-                            <label for="">Acepta terminos y condiciones</label>
+                        <div> 
+                            <label>Al continuar acepta los terminos y condiciones</label>
                         </div>
                     </p>
                     <!-- Siguiente y anterior -->
                     <div id="prevNext1">
                         <button class="anterior">Anterior</button>
-                        <button class="siguiente" id="fin">Finalizar</button>
+                        <button class="siguiente">Finalizar</button>
                     </div>
                 </form>
             </div>
